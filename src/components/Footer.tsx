@@ -90,7 +90,7 @@ const Footer: React.FunctionComponent = () => {
             </a>
           )}
 
-          <a href="https://renangarcia.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://renangarcia.dev" target="_blank" rel="noopener noreferrer">
             Blog
           </a>
 

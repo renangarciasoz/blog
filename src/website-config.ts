@@ -55,7 +55,7 @@ const config: WebsiteConfig = {
   coverImage: 'img/blog-cover.jpg',
   logo: 'img/renan-logo.png',
   lang: 'pt-br',
-  siteUrl: 'https://renangarcia.com',
+  siteUrl: 'https://renangarcia.dev',
   facebook: 'https://www.facebook.com/renan.garcia.927',
   twitter: 'https://twitter.com/_reehgarcia',
   showSubscribe: true,
