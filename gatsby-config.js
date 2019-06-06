@@ -6,7 +6,7 @@ module.exports = {
     author: `@renangarciasoz`,
     description:
       'Minha missão é criar interfaces incríveis e de alta performance provendo uma ótima experiência para o usuário',
-    siteUrl: 'https://renangarcia.dev', // full path to blog - no ending slash
+    siteUrl: 'https://renangarcia.com', // full path to blog - no ending slash
   },
   mapping: {
     'MarkdownRemark.frontmatter.author': 'AuthorYaml',
@@ -50,7 +50,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
-        siteUrl: 'https://renangarcia.dev',
+        siteUrl: 'https://renangarcia.com',
       },
     },
     'gatsby-plugin-emotion',
