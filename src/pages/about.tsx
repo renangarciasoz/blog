@@ -20,7 +20,7 @@ const PageTemplate = css`
 const About: React.FunctionComponent = () => (
   <IndexLayout>
     <Helmet>
-      <title>About</title>
+      <title>Sobre mim</title>
     </Helmet>
     <Wrapper css={PageTemplate}>
       <header css={[outer, SiteHeader]}>
@@ -31,45 +31,37 @@ const About: React.FunctionComponent = () => (
       <main id="site-main" className="site-main" css={[SiteMain, outer]}>
         <article className="post page" css={[PostFull, NoImage]}>
           <PostFullHeader>
-            <PostFullTitle>About</PostFullTitle>
+            <PostFullTitle>Quem sou eu?</PostFullTitle>
           </PostFullHeader>
 
           <PostFullContent className="post-full-content">
             <div className="post-content">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo finibus leo,
-                non tempus magna vehicula ac. Maecenas mollis ante finibus pharetra imperdiet.
-                Maecenas in aliquam purus. Nam et massa a nulla fermentum dapibus sit amet in neque.
-                Ut ipsum ipsum, rhoncus a sodales pellentesque, interdum a elit. Nullam aliquam
-                tellus nibh, eget laoreet dui aliquet non. Vestibulum malesuada ante at diam tempus,
-                ac interdum risus scelerisque. Sed ipsum neque, vulputate porta diam eget, consequat
-                blandit nulla. Integer volutpat velit vitae purus lacinia aliquam. Integer bibendum
-                ipsum vitae magna pulvinar, nec vehicula dolor vulputate. Nulla eu massa id orci
-                placerat finibus vel sit amet eros. Vestibulum quis consequat massa. Sed sagittis
-                sollicitudin massa at commodo. Praesent diam nisi, imperdiet posuere eleifend nec,
-                blandit ac massa.
+                Meu nome é Renan Santana Garcia, tenho 21 anos e moro em Osasco, onde nasci e fui criado, mas relaxe, não precisa ter medo rsrsrs…
               </p>
               <p>
-                Vestibulum semper pretium ipsum nec congue. Ut ac eros nisi. Donec leo sem, aliquam
-                mollis sapien ultrices, dapibus congue diam. Proin viverra dapibus blandit. Ut
-                mauris tellus, tristique id felis vel, venenatis vestibulum nunc. Nam molestie
-                pulvinar nibh, eget egestas augue. Maecenas tellus arcu, mattis ut ipsum non,
-                sollicitudin convallis nunc. Donec nec neque tristique, aliquet lacus id, laoreet
-                nunc. Cras dapibus nisi nulla, ullamcorper faucibus neque suscipit ac. Donec eget
-                orci venenatis justo lobortis volutpat. Proin vel placerat nisl. Integer arcu nunc,
-                sodales eu fringilla non, aliquam non diam. Cras placerat, massa et faucibus
-                pretium, ante elit tincidunt tellus, tristique ultricies velit quam et massa.
+              Sou um Desenvolvedor Front End desde 2016 que abusa do JavaScript e suas mágicas para criar inúmeras aplicações com o foco em performance e na experiência do usuário. Contribuí para grandes projetos das empresas como UOL, Ciclic, Cargox, etc.
               </p>
               <p>
-                In nunc lacus, dapibus vitae lacus sit amet, efficitur iaculis neque. Suspendisse ut
-                tellus quis leo vestibulum tincidunt. Aenean nec enim ac dolor lacinia semper. Ut
-                sed laoreet libero. Nunc elementum sollicitudin accumsan. Nunc eu augue neque. Proin
-                a tortor nibh. Cras eu nisl ornare sapien feugiat pellentesque. Mauris dignissim vel
-                quam eu pellentesque. Integer sit amet posuere quam, eu ullamcorper odio. Nullam a
-                lacus tempus sapien dignissim ullamcorper. In hac habitasse platea dictumst. Proin
-                quis massa aliquam, feugiat tortor sit amet, tincidunt urna. Donec posuere pulvinar
-                lectus, ac semper ipsum vulputate quis.
+              Gosto muito de ajudar outros desenvolvedores a evoluir, então decidi contribuir na comunidade open source disponibilizando tutoriais e projetos de coisas novas. Com isso consigo aprender e ao mesmo tempo praticar a empatia para criar um mundo melhor!
               </p>
+              <h2>Habilidades</h2>
+              <p>OBS: Vou dar uma abstraída, mas se quiser saber mais basta me pingar!</p>
+              <ul>
+                <li>JavaScript / ES6</li>
+                <li>APIs / GraphQL / Apollo</li>
+                <li>React / Redux / Gatsby / SSR</li>
+                <li>Vue / Vuex / Gridsome / SSR</li>
+                <li>JSCss/ Styled-components / Emotion</li>
+                <li>HTML, CSS, SASS, Frameworks CSS (bootstrap, material, …).</li>
+                <li>...</li>
+              </ul>
+              <h2>Contato</h2>
+              <ul>
+                <li><a href="https://www.linkedin.com/in/renan-g-2a251ba0/">LinkedIn</a></li>
+                <li><a href="https://www.twitter.com/renangarciasoz">Twitter</a></li>
+                <li><a href="https://www.github.com/renangarciasoz">Github</a></li>
+              </ul>
             </div>
           </PostFullContent>
         </article>

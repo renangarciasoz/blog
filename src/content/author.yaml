@@ -13,3 +13,11 @@
   website: https://ghost.org/
   location: On a plane
   profile_image: img/alex-knight-326705-unsplash.jpg
+- id: Renan
+  avatar: avatars/renan.jpg
+  bio: Front End Developer | JavaScript
+  twitter: renangarciasoz
+  facebook: renan.garcia.927
+  website: https://renangarcia.com/
+  location: São Paulo
+  profile_image: img/renan.jpg
