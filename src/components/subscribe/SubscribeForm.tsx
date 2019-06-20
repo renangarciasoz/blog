@@ -107,7 +107,7 @@ const SubscribeForm: React.FunctionComponent = () => {
         <input type="text" name={config.mailchimpName} tabIndex={-1} />
       </div>
       <SubscribeFormButton type="submit">
-        <span>Subscribe</span>
+        <span>Inscreva-se</span>
       </SubscribeFormButton>
     </form>
   );
