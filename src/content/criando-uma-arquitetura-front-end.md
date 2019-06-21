@@ -2,7 +2,7 @@
 layout: post
 title: Criando uma arquitetura Front End (exemplo com AWS).
 image: img/callum-shaw-555357-unsplash.jpg
-author: Renan
+author: Renan Garcia
 date: 2019-06-20T16:08:00.000Z
 tags:
   - Arquitetura de Software

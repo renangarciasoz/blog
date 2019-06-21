@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Quem sou eu?"
-author: Renan
+author: Renan Garcia
 tags: ["Front End", "Renan Garcia", "React", "Vue", "Quem sou eu"]
 image: img/quem-sou-eu.jpg
 date: "2019-06-19T17:12:37.121Z"
