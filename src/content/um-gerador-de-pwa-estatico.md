@@ -7,7 +7,6 @@ date: "2019-06-21T17:11:00.000Z"
 draft: false
 ---
 
-### Um gerador de PWA estático?!? (Gatsby)
 Fala galera, estou aqui mais uma vez tentando facilitar a vida d@s Fronts trazendo novidades, mas dessa vez é para quem utiliza ou quer utilizar o famoso  [React.js](https://pt-br.reactjs.org/).
 
 ### Entendendo o cenário
