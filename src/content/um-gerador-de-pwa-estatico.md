@@ -11,17 +11,19 @@ Fala galera, estou aqui mais uma vez tentando facilitar a vida d@s Fronts trazen
 
 ### Entendendo o cenário
 
-Você que já desenvolve com esse poderoso framework já deve ter tido alguns problemas com performance, SEO, etc… Talvez teve que optar por utilizar um  [Server Side Rendering](https://facebook.github.io/react/docs/react-dom-server.html)  como o  [Next.js](https://nextjs.org/)  certo? Pois ele resolve a maioria desses problemas na parte do servidor… Mas as vezes fica bem complicado utilizá-lo para um projeto pequeno, por exemplo fazer um deploy na AWS…
+Você que já desenvolve com esse poderoso framework já deve ter tido alguns problemas com Performance, SEO, etc… Talvez teve que optar por utilizar um [Server Side Rendering](https://facebook.github.io/react/docs/react-dom-server.html) como o  [Next.js](https://nextjs.org/) certo? mas não é a única opção.
 
-Sabia que da pra resolver todos esses problemas com uma biblioteca? No final ela compila seu código escrito em React te retornando tudo estático, onde você consegue fazer deploy em qualquer lugar, até mesmo jogar em um bucket dentro da AWS… e está pronto o sorvetinho!
+Sabia que da pra resolver todos esses problemas com uma biblioteca? No final ela compila seu código escrito em React te retornando tudo estático, onde você consegue fazer deploy em qualquer lugar, até mesmo no serviço de armazenamento da AWS (S3)!
+
+O que seria essa biblioteca?
 
 ### O Gatsby
 
-É um framework da Web em JavaScript que permite criar sites rápidos, dinâmicos e prontos para dispositivos móveis  _sem_  um grau avançado em magia de JavaScript.
+É uma biblioteca/framework da Web em JavaScript que permite criar sites rápidos, dinâmicos e prontos para dispositivos móveis _sem_ um grau avançado em magia de JavaScript.
 
-Um incrível gerador de site estático que permite que o  [React.js](https://pt-br.reactjs.org/)  seja usado como o mecanismo de renderização por baixo dos panos para criar um site estático que realmente tenha todos os benefícios esperados em uma aplicação da Web Moderno (Performance, SEO, …).
+Um incrível gerador de site estático que permite que o [React.js](https://pt-br.reactjs.org/) seja usado como o mecanismo de renderização por baixo dos panos para criar um site estático que realmente tenha todos os benefícios esperados em uma aplicação da Web Moderno (Performance, SEO, …).
 
-Ele faz isso renderizando componentes dinâmicos do  [React.js](https://pt-br.reactjs.org/)  em conteúdo HTML estático por meio  [da renderização do lado do servidor](https://facebook.github.io/react/docs/react-dom-server.html)  no momento da criação.
+Ele faz isso renderizando componentes dinâmicos do [React.js](https://pt-br.reactjs.org/) em conteúdo HTML estático por meio  [da renderização do lado do servidor](https://facebook.github.io/react/docs/react-dom-server.html)  no momento da criação.
 
 Significa que seus usuários obtêm todos os benefícios de um site estático, como a capacidade de trabalhar sem JavaScript, a facilidade de pesquisa, os tempos de carregamento rápidos, etc., com as poderosas abstrações, ferramentas e recursos do cliente do mundo  [React.js](https://pt-br.reactjs.org/).
 
@@ -45,17 +47,19 @@ O Gatsby sempre teve um rico conjunto de APIs de ciclo de vida para permitir que
 
 Poe exemplo, se você quiser configurar sua aplicação para que ela seja um PWA basta apenas instalar o plugin  [**gatsby-plugin-manifest**](https://www.npmjs.com/package/gatsby-plugin-manifest)  e configurá-lo… Assim como tem inúmeros plugins!
 
-### Gatsby é JAMStack
+### Gatsby também é JAMStack
 
 O JAMStack é uma arquitetura de desenvolvimento web moderna baseada em JavaScript do lado do cliente, APIs reutilizáveis ​​e marcação pré-construída.
 
 É uma nova maneira de criar websites e aplicativos que ofereçam melhor desempenho, maior segurança, menor custo de dimensionamento e melhor experiência do desenvolvedor.
 
-### E MUITO MAIS…
+### [E MUITO MAIS…](https://gatsbyjs.org)
 
 ### Conclusão
 
-Vimos que não precisamos iniciar uma discussão complexa de mudar todo o esquema dos projetos de uma empresa para colocar o Next.js, conseguimos resolver apenas com um toque de Gatsby!
+Vimos que não precisamos iniciar uma discussão complexa de mudar todo o esquema dos projetos de uma empresa para colocar o  [Next.js](https://nextjs.org/), conseguimos resolver apenas com um toque de [Gatsby!](https://gatsbyjs.org)
+
+Mas óbvio que não é uma concorrência, são bem diferentes… e lembrando um ajuda o outro, imagina você fazer N projetos com [Gatsby](https://gatsbyjs.org) e fazer com que o  [Next.js](https://nextjs.org/) utilize/junte esses projetos?
 
 E obrigado mais uma vez turma, até a próxima ❤
 
