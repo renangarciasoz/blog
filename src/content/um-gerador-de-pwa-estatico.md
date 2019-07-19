@@ -13,7 +13,7 @@ Fala galera, estou aqui mais uma vez tentando facilitar a vida d@s Fronts trazen
 
 Você que já desenvolve com esse poderoso framework já deve ter tido alguns problemas com Performance, SEO, etc… Talvez teve que optar por utilizar um [Server Side Rendering](https://facebook.github.io/react/docs/react-dom-server.html) como o  [Next.js](https://nextjs.org/) certo? mas não é a única opção.
 
-Sabia que da pra resolver todos esses problemas com uma biblioteca? No final ela compila seu código escrito em React te retornando tudo estático, onde você consegue fazer deploy em qualquer lugar, até mesmo no serviço de armazenamento da AWS (S3)!
+Sabia que da pra resolver todos esses problemas com uma biblioteca? No final ela compila seu código escrito em React e retorna tudo estático, onde você consegue fazer deploy em qualquer lugar, até mesmo no serviço de armazenamento da AWS (S3)!
 
 O que seria essa biblioteca?
 
@@ -45,7 +45,7 @@ O Gatsby carrega primeiro uma página HTML renderizada pelo servidor estático e
 
 O Gatsby sempre teve um rico conjunto de APIs de ciclo de vida para permitir que você se conecte a vários eventos durante o desenvolvimento, a construção e o cliente.
 
-Poe exemplo, se você quiser configurar sua aplicação para que ela seja um PWA basta apenas instalar o plugin  [**gatsby-plugin-manifest**](https://www.npmjs.com/package/gatsby-plugin-manifest)  e configurá-lo… Assim como tem inúmeros plugins!
+Por exemplo, se você quiser configurar sua aplicação para que ela seja um PWA basta apenas instalar o plugin  [**gatsby-plugin-manifest**](https://www.npmjs.com/package/gatsby-plugin-manifest)  e configurá-lo… Assim como tem inúmeros plugins!
 
 ### Gatsby também é JAMStack
 
