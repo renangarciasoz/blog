@@ -17,7 +17,7 @@ Finge que usou NextJs e ele virou um “monolito”, com isso iniciou uma discus
 # Micro-serviços
 “A arquitetura de micro-serviços reduz os aplicativos complexos em componentes de finalidade única. Essa é uma abordagem mais eficiente porque os componentes são isolados por falhas: se um deles quebrar, o restante do aplicativo continuará funcionando. Cada componente pode ser construído por uma equipe pequena e multifuncional, permitindo que a equipe escolha a tecnologia ideal para o trabalho e, ao mesmo tempo, implante de forma independente, em seu próprio ritmo.”
 
-# Maos a obra
+# Mãos à obra
 Bom vamos ao que interessa, irei ajudá-los a entender melhor essa arquitetura disponibilizando o código do meu teste utilizando NextJS e create-react-app (UMD), lembrando que não há um único jeito de se fazer como já fiz outro post sobre isso vocês devem já imaginar, hoje irei utilizar uma outra maneira que talvez faça mais sentido para SPA’s, em cima do artigo do Martin Fowler ([https://martinfowler.com/articles/micro-frontends.html](https://martinfowler.com/articles/micro-frontends.html)).
 
 # UMD
@@ -28,6 +28,9 @@ A idéia então é criar um SPA com NextJS que tenha um design system e uma pág
 ![](https://miro.medium.com/max/519/1*Mi8FQgs2XYJa6Ge8MI-71Q.png)
 *Figura 1: Ideia para Arquitetura Micro Front End.*
 
+# Diferente do "hype"
+Atualmente tem muitas soluções, até mesmo a do Martin de criar N aplicações como um serviço(localhost:…). Pois, se por algum acaso aconteça de ficar indisponível, sua aplicação inteira também ficará, dependendo de como você estruturou. Então, por isso, pensei em criar como bibliotecas, e não precisará se preocupar com a infra.
+
 # Repositórios
 
 -   NextJS:  [https://github.com/renangarciasoz/micro-front-end-nextjs](https://github.com/renangarciasoz/micro-front-end-nextjs)
@@ -36,20 +39,13 @@ A idéia então é criar um SPA com NextJS que tenha um design system e uma pág
 
 ## NextJS/layout.js
 ```
-import { Header, Footer } from "design-system-lib";  
-import { Provider } from "react-redux";  
+import { Header, Footer } from "design-system-lib";
   
 const Layout = ({ children }) => (  
-  <div style={{ display: "flex", flexDirection: "column", height: "98vh" }}>  
+  <div>  
     <Header />  
-    <main  
-      style={{  
-        padding: "20px",  
-        height: "calc(100% - 40px)",  
-        backgroundColor: "#D5E8D4"  
-      }}  
-    >  
-      {children}  
+    <main>  
+      {children}
     </main>  
     <Footer />  
   </div>  
